@@ -2,7 +2,7 @@
 title: Course curriculum
 description: curriculum
 published: true
-date: 2020-10-04T02:28:41.418Z
+date: 2020-10-04T02:29:21.822Z
 tags: saikrishna
 editor: markdown
 dateCreated: 2020-10-04T00:47:18.535Z
@@ -24,9 +24,9 @@ dateCreated: 2020-10-04T00:47:18.535Z
 - White box Testing from Performance Point of View
 ### 2. Grey Box Testing
 ### 3. Black Box Testing
-#### 1. Functionality Testing/Component Testing
-#### 2. Integration Testing
-#### 3. System Testing
+#### a. Functionality Testing/Component Testing
+#### b. Integration Testing
+#### c. System Testing
 - Build
 - Release
 - Patch
@@ -37,6 +37,6 @@ dateCreated: 2020-10-04T00:47:18.535Z
 - Web Application
 - Client Server Application
 - Stand Alone Application
-#### Acceptance Testing
+#### d. Acceptance Testing
 - Alpha Testing
 - Beta Testing
