@@ -1,0 +1,49 @@
+<!--
+title: Selenium
+description: 
+published: true
+date: 2020-10-04T16:32:14.005Z
+tags: 
+editor: ckeditor
+dateCreated: 2020-10-04T16:32:14.005Z
+-->
+
+<h1>Easy</h1>
+<ul>
+  <li>Could you mention some exceptions you came across in your automation?</li>
+</ul>
+<p>WebDriverException, NoAlertPresentException, NoSuchWindowException, NoSuchElementException, TimeoutException</p>
+<ul>
+  <li>What are the different types of locators in Selenium?</li>
+</ul>
+<p style="text-align:justify;">ID, ClassName, Name, TagName, LinkText, PartialLinkText, Xpath, CSS Selector</p>
+<ul>
+  <li style="text-align:justify;">How would you count the Elements on a Webpage with Java &amp; Selenium Webdriver?</li>
+</ul>
+<p style="text-align:justify;">int xpathCount = webDriver.findElements(By.xpath("Valid_Xpath")).size();</p>
+<ul>
+  <li style="text-align:justify;">What is an XPath?</li>
+</ul>
+<p style="text-align:justify;">XPath is used to locate a web element based on its XML path. XML stands for Extensible Markup Language and is used to store, organize and transport arbitrary data. It stores data in a key-value pair which is very much similar to HTML tags. Both being markup languages and since they fall under the same umbrella, XPath can be used to locate HTML elements.</p>
+<p style="text-align:justify;">&nbsp;</p>
+<p>&nbsp;</p>
+<h1>Moderate</h1>
+<ul>
+  <li>What is the difference between / and // in Xpath?</li>
+</ul>
+<p>Single Slash “/” – With a single slash, we can create XPath with absolute path.</p>
+<p>Double Slash “//” – With a double slash, we can build XPath with a relative path, i.e., the XPath would be set up to start selection from anywhere in the document.</p>
+<ul>
+  <li>Explain how can the Webdriver imitate the double click?</li>
+</ul>
+<p>Actions actionObject = new Actions (driver).doubleClick(webelement);</p>
+<ul>
+  <li>Selenium WebDriver – How do you handle alert pop-up?</li>
+</ul>
+<p>To work with alert dialogs, the first action you should take is to switch the control to alert dialogs then press the “OK” or “Cancel” button. And finally, you can move control back to the web page.</p>
+<ul>
+  <li>What is the difference between driver.close() and driver.quit command?</li>
+</ul>
+<p><strong>close()</strong>: WebDriver’s close() method closes the web browser window that the user is currently working on or we can also say the window that is being currently accessed by the WebDriver. The command neither requires any parameter nor does it return any value.</p>
+<p><strong>quit()</strong>: Unlike close() method, quit() method closes down all the windows that the program has opened. Same as close() method, the command neither requires any parameter nor does is return any value.</p>
+<h1>Tough</h1>
