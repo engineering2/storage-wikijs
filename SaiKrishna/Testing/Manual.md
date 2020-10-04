@@ -2,7 +2,7 @@
 title: Course curriculum
 description: curriculum
 published: true
-date: 2020-10-04T00:47:18.535Z
+date: 2020-10-04T02:28:41.418Z
 tags: saikrishna
 editor: markdown
 dateCreated: 2020-10-04T00:47:18.535Z
@@ -37,3 +37,6 @@ dateCreated: 2020-10-04T00:47:18.535Z
 - Web Application
 - Client Server Application
 - Stand Alone Application
+#### Acceptance Testing
+- Alpha Testing
+- Beta Testing
